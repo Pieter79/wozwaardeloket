@@ -4,6 +4,7 @@ Scraper for WOZ data from wozwaardeloket: Efficient property valuation insights.
 Scrape/extract wozwaardeloket.nl 
 
 2 different API's
+
 https://api.kadaster.nl/lvwoz/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/NUMBER(=NUMMERAANDUIDINGID)
 https://api.kadaster.nl/lvwoz/wozwaardeloket-api/v1/wozwaarde/wozobjectnummer/WOZOBJECTNUMMER
 
@@ -11,9 +12,11 @@ API 1
 https://api.kadaster.nl/lvwoz/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/NUMBER(=NUMMERAANDUIDINGID)
 You need the NUMMERAANDUIDINGID
 To find them:
-1 find all addresses in The Netherlands (streetname, housenumber, housenumbersuffix, postalcode, city)
+1 
+find all addresses in The Netherlands (streetname, housenumber, housenumbersuffix, postalcode, city)
 
-1.1 Find PostalCodes
+1.1 
+Find PostalCodes
 q=1000 - q=9999 = 9.000 combinations = 9.000 GET requests.
 https://api.pdok.nl/bzk/locatieserver/search/v3_1/suggest?q=1012&fq=type:postcode&rows=3000
 Done in about 1 minute.
