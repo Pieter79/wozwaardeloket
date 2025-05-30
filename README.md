@@ -1,7 +1,7 @@
 # wozwaardeloket
 Scraper for WOZ data from wozwaardeloket: Efficient property valuation insights.
 
-Scrape/extract wozwaardeloket.nl 
+Scrape/extract wozwaardeloket.nl	
 
 2 different API's	
 https://api.kadaster.nl/lvwoz/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/NUMBER(=NUMMERAANDUIDINGID)	
